@@ -1,0 +1,165 @@
+/*hero section*/
+.hero {
+    /* Background image */
+    background-image: url('George\(w\).jpg');
+    height: 70vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    z-index: 1; 
+    width: 75vw;
+}
+
+.hero-text h1 {
+    font-size: 50px; 
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.hero-text p {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+.mission-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    font-size: 11px;
+    line-height: 30px;
+}
+
+.mission {
+    max-width: 1100px;
+    color: #181818;
+}
+
+
+
+
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 133vh; /* Full viewport height */
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.container h2 {
+    margin-top: 60px ;
+    margin-bottom: 25px;
+    color: #181818;
+}
+
+.container h3 {
+    margin: 30px;
+    margin-top: 60px;
+    color: #181818;    
+}
+
+.container h4 {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+.snap-scan-image {
+    width: 150px; /* Adjust size as needed */
+    margin: 20px auto;
+    display: block; /* Centers the image */
+    border-radius: 5px; /* Optional: rounds the corners */
+}
+
+.drop-down {
+    width: 750px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.drop-down-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%; /* Full width for stacking */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 10px; /* Spacing between items */
+}
+
+.drop-down-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: none;
+    outline: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    color: #7c7c7c;
+}
+
+.drop-down-button:hover {
+    background-color: #eee;
+} 
+
+.drop-down-content {
+    max-height: 0; /* Initially collapsed */
+    overflow: hidden; /* Hides overflowing content */
+    padding: 0 15px; /* Padding for content */
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    transition: max-height 0.5s ease; /* Smooth expand/collapse */
+}
+
+.drop-down-content p {
+    margin: 10px 0;
+    color: #7c7c7c;
+}

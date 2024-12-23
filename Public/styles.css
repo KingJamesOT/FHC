@@ -1,0 +1,159 @@
+/*hero section*/
+.hero {
+    /* Background image */
+    background-image: url('vince.jpg');
+    height: 60vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    z-index: 1; 
+    width: 75vw;
+}
+
+.hero-text h1 {
+    font-size: clamp(1.75rem, 5vw, 3rem); 
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    color: white;
+}
+
+.hero-text p {
+  font-size: clamp(1.125rem, 3.5vw, 2rem);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+/*mission section*/
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission img {
+    max-width: 700px;
+    width: clamp(25rem, 50vw, 80rem); ;
+}
+
+
+
+
+
+/*events section*/
+.events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+ 
+}
+
+.events-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(vince.jpg);
+    color: white;
+    height: 20vh;
+    width: 100vw;
+    margin-bottom: 5vh;
+}
+
+.events-text h1 {
+    font-weight: 600;
+    font-size: clamp(1.75rem, 4vw, 3rem); 
+}
+
+.events-text p {
+    padding-top: 25px;
+    font-size: clamp(0.75rem, 1.5vw, 1.25rem);
+}
+
+
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    width: 85vw;
+}
+
+.event img {
+    width: 100vw;
+    object-fit: cover; 
+    box-shadow: #333 (1, 1, 1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); 
+    transition: all .3s ease; 
+}
+
+.event img:hover {    
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 756px) {
+    .hero {
+        height: 80vh;
+
+    }
+
+    .events-text {
+        height: 30vh;
+        margin-bottom: 8vh;
+    }
+
+
+    .event {
+        margin-bottom: 8vh;
+        width: 75vw;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    /*hero section*/
+.hero {
+    height: 100vh;
+
+}
+
+.events-text {
+    height: 40vh;
+    margin-bottom: 8vh;
+}
+
+
+.event {
+    margin-bottom: 8vh;
+    width: 75vw;
+}
+
+}

@@ -1,0 +1,117 @@
+/*hero section*/
+.hero {
+    /* Background image */
+    background-image: url('George\(c\).jpg');
+    height: 70vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    z-index: 1; 
+    width: 75vw;
+}
+
+.hero-text h1 {
+    font-size: 50px; 
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.hero-text p {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+/*Contact form*/
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.contact-us {
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.name input {
+  width: 50%; 
+  padding: 10px;
+  font-size: 13px;
+  background-color: #f3f3f3;
+  border: 1px solid #dadada;
+}
+
+.message {
+    width: 100%;
+}
+
+.message input,
+.message textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #dadada;
+}
+
+.message textarea {
+  height: 150px; 
+  resize: none; 
+}
+
+.submit {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #333; 
+    color: #ffffff; 
+    border: 2px solid #333; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #ffffff; 
+    color: #222; 
+    border: 2px solid #333; 
+}
+
+.form-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 70px;
+  text-align: center;
+}

@@ -1,0 +1,117 @@
+/*hero section*/
+.hero {
+    /* Background image */
+    background-image: url('George\(w\).jpg');
+    height: 70vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    z-index: 1; 
+    width: 75vw;
+}
+
+.hero-text h1 {
+    font-size: 50px; 
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.hero-text p {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+     
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175vh; 
+    background-color: #f4f4f4;
+}
+
+.container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #181818;
+}
+
+.container h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.container p {
+    font-size: 16px;
+    color: #555;
+}
+
+.container h3 {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 16px;    
+    margin-bottom: 15px;
+    color: #181818;
+}        
+        
+.container {
+    background: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    width: 50vw;
+    min-width: 400px;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.button-container a {
+    padding: 22px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #dadada;
+    background-color: #ffffff;
+    color:  #5a5a5a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+        
+
